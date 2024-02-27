@@ -14,6 +14,9 @@ export default defineNuxtConfig({
     },
   },
   devtools: { enabled: false },
+  colorMode: {
+    preference: 'light',
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
