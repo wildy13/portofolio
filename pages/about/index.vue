@@ -47,7 +47,7 @@ const experiences = reactive()
             <div class="flex justify-end space-y-20">
                 <div class="mb-64 mx-4 md:mb-0">
                     <UTabs :items="items" :ui="{ list: { background: 'bg-emerald-200', tab: { background: '' } } }"
-                        class="w-full max-w-lg bg-emerald-500">
+                        class="w-full max-w-lg">
                         <template #item="{ item }">
                             <UCard @submit.prevent="() => onSubmit(item.key === 'education' ? education : experiences)">
                                 <div v-if="item.key === 'education'" class="space-y-3">
