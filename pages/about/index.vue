@@ -42,17 +42,17 @@ const experiences = reactive()
 
 
 <template>
-    <div ref="el" class="max-h-screen bg-[#DFF8FD]">
+    <div ref="el" class="max-h-screen bg-[#DFF8FD] ">
         <div class="h-screen flex flex-col pt-16">
             <div class="flex justify-end space-y-20">
                 <div class="mb-64 mx-4 md:mb-0">
                     <UTabs :items="items" :ui="{ list: { background: 'bg-emerald-200', tab: { background: '' } } }"
-                        class="w-full max-w-lg">
+                        class="w-full max-w-lg bg-emerald-500">
                         <template #item="{ item }">
                             <UCard @submit.prevent="() => onSubmit(item.key === 'education' ? education : experiences)">
                                 <div v-if="item.key === 'education'" class="space-y-3">
                                     <div v-for="item in item.content">
-                                        <div class="text-base text-gray-900 font-semibold">
+                                        <div class="text-base font-semibold">
                                             {{ item.major }}
                                         </div>
                                         <div class="flex space-x-4 text-gray-400 text-sm">
@@ -65,7 +65,7 @@ const experiences = reactive()
                                 </div>
                                 <div v-else-if="item.key === 'experiences'" class="space-y-3">
                                     <div v-for="item in item.content">
-                                        <div class="text-basetext-gray-900 font-semibold">
+                                        <div class="text-base font-semibold">
                                             {{ item.role }}
                                         </div>
                                         <div class="text-gray-400 text-sm">
