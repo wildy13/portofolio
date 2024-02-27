@@ -14,13 +14,18 @@
                     <div v-motion :initial="{ y: 200, opacity: 0, }"
                         :enter="{ y: 0, opacity: 1, transition: { duration: 2100, type: 'keyframes', ease: 'easeOut' } }"
                         class="mx-4  text-gray-400 text-xl">Olaaa, my name is wildy</div>
-                    <div v-motion :initial="{ y: 200, opacity: 0, }"
+                    <div v-motion :initial="{ y: 300, opacity: 0, }"
                         :enter="{ y: 0, opacity: 1, transition: { duration: 2400, type: 'keyframes', ease: 'easeOut' } }"
                         class="mx-4 text-gray-400 text-xl">The biggest thing i know is <span
-                            class="text-red-500">Never</span> Give up</div>
+                            class="text-red-500">Never</span> Give up.</div>
+                    <div v-motion :initial="{ y: 400, opacity: 0, }"
+                        :enter="{ y: 0, opacity: 1, transition: { duration: 2700, type: 'keyframes', ease: 'easeOut' } }">
+                        <a href="/docs/wildy.pdf" class="mx-4 text-gray-400 text-xl" download>Download My CV</a>
+                    </div>
                 </div>
-                <img v-motion :initial="{ y: 375, opacity: 0, }"
-                        :enter="{ y: 0, opacity: 1, transition: { duration: 2700, type: 'keyframes', ease: 'easeOut' } }" src="/avatar.png" alt="avatar" class="absolute bottom-0 right-0 z-50 h-auto">
+                <img v-motion :initial="{ y: 500, opacity: 0, }"
+                    :enter="{ y: 0, opacity: 1, transition: { duration: 3000, type: 'keyframes', ease: 'easeOut' } }"
+                    src="/avatar.png" alt="avatar" class="absolute bottom-0 right-0 z-50 h-auto">
             </div>
         </div>
     </div>
