@@ -68,7 +68,7 @@ const experiences = reactive()
                                         <div class="text-basetext-gray-900 font-semibold">
                                             {{ item.role }}
                                         </div>
-                                        <div class="flex space-x-4 text-gray-400 text-sm">
+                                        <div class="flex space-x-4 text-gray-400 text-xs">
                                             <div>
                                                 {{ item.company }}
                                             </div>
