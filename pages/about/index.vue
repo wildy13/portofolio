@@ -68,15 +68,13 @@ const experiences = reactive()
                                         <div class="text-basetext-gray-900 font-semibold">
                                             {{ item.role }}
                                         </div>
-                                        <div class="flex space-x-4 text-gray-400 text-xs">
-                                            <div>
-                                                {{ item.company }}
-                                            </div>
-                                            <div class="flex space-x-1">
-                                                <span>{{ item.from }}</span>
-                                                <span>-</span>
-                                                <span>{{ item.to }}</span>
-                                            </div>
+                                        <div class="text-gray-400 text-sm">
+                                            {{ item.company }}
+                                        </div>
+                                        <div class="text-gray-400 text-sm flex space-x-1">
+                                            <span>{{ item.from }}</span>
+                                            <span>-</span>
+                                            <span>{{ item.to }}</span>
                                         </div>
                                     </div>
                                 </div>

@@ -6,7 +6,7 @@
     <div class="max-h-screen bg-[#DFF8FD]">
         <div class="h-screen flex flex-col justify-center">
             <div class="flex justify-between items-center space-y-20">
-                <div class="mb-72 md:m-0">
+                <div class="mb-80 md:m-0">
                     <div v-motion :initial="{ x: -200, opacity: 0, }"
                         :enter="{ x: 0, opacity: 1, transition: { duration: 1500, type: 'keyframes', ease: 'easeOut' } }"
                         class="pt-10 mx-4 text-4xl text-black">Web <span>Developer</span>
