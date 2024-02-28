@@ -45,7 +45,7 @@ const experiences = reactive()
     <div ref="el" class="max-h-screen bg-[#DFF8FD] ">
         <div class="h-screen flex flex-col pt-16">
             <div class="flex justify-end space-y-20">
-                <div class="pt-16 md:p-0">
+                <div>
                     <UTabs :items="items"
                         class="w-full max-w-lg px-4">
                         <template #item="{ item }">
