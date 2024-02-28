@@ -46,7 +46,8 @@ const experiences = reactive()
         <div class="h-screen">
             <Navbar />
             <div class="flex justify-end space-y-20 py-16">
-                <div>
+                <div v-motion :initial="{ y: -100, opacity: 0, }"
+                    :enter="{ y: 0, opacity: 1, transition: { duration: 1200, type: 'keyframes', ease: 'easeOut' } }">
                     <UTabs :items="items" class="w-full max-w-lg px-4">
                         <template #item="{ item }">
                             <UCard @submit.prevent="() => onSubmit(item.key === 'education' ? education : experiences)">

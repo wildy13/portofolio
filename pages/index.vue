@@ -20,10 +20,14 @@
                         <a href="/docs/wildy.pdf" class="mx-4 text-gray-400 text-xl" download>Download My CV</a>
                     </div>
                     <div class="flex space-x-2 md:space-x-4 py-2 md:py-4 mx-4">
-                        <nuxtLink to="https://github.com/wildy13">
+                        <nuxtLink v-motion :initial="{ x: -200, opacity: 0, }"
+                            :enter="{ x: 0, opacity: 1, transition: { duration: 3400, type: 'keyframes', ease: 'easeOut' } }"
+                            to="https://github.com/wildy13">
                             <UIcon name="i-devicon-github-wordmark" class="w-10 h-10" />
                         </nuxtLink>
-                        <nuxtLink to="https://www.linkedin.com/in/wildy-simanjuntak-181a691a4">
+                        <nuxtLink v-motion :initial="{ x: -100, opacity: 0, }"
+                            :enter="{ x: 0, opacity: 1, transition: { duration: 3700, type: 'keyframes', ease: 'easeOut' } }"
+                            to="https://www.linkedin.com/in/wildy-simanjuntak-181a691a4">
                             <UIcon name="i-devicon-linkedin-wordmark" class="w-10 h-10" />
                         </nuxtLink>
                     </div>

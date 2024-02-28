@@ -22,7 +22,9 @@ const submit = (form) => {
     <div class="max-h-screen bg-[#DFF8FD]">
         <div class="h-screen">
             <Navbar />
-            <div class="h-screen w-full flex flex-col items-center justify-center pb-16">
+            <div v-motion :initial="{ scale: 0 , opacity: 0, }"
+                :enter="{ scale: 1, opacity: 1, transition: { duration: 1200, type: 'keyframes', ease: 'easeOut' } }"
+                class="h-screen w-full flex flex-col items-center justify-center pb-16">
                 <div>
                     <div class="text-center text-base font-bold">Get in touch</div>
                     <div class="font-semibold text-sm text-center">For inquiries regarding my portfolio, please feel free to
