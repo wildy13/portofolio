@@ -1,5 +1,5 @@
 <template>
-    <div class="max-h-screen bg-[#DFF8FD] py-12">
+    <div class="min-h-screen bg-[#DFF8FD] py-12">
         <div class="h-screen">
             <div class="py-2 text-center font-semibold text-base">Highlight Project</div>
             <div class=" grid grid-cols-2 mx-2 gap-2">
