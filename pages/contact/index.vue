@@ -17,8 +17,8 @@ const submit = (form) => {
 
 <template>
     <div class="max-h-screen bg-[#DFF8FD] ">
-        <div class="h-screen w-full flex flex-col items-center justify-center py-16">
-            <div class="hidden md:block">
+        <div class="h-screen w-full flex flex-col items-center justify-center pb-16">
+            <div>
                 <div class="text-center text-xl font-bold">Get in touch</div>
                 <div class="font-semibold text-base text-center">For inquiries regarding my portfolio, please feel free to reach out.</div>
             </div>
