@@ -23,9 +23,10 @@
                             src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="">
                     </div>
                 </div>
-            </div>
-            <div class="py-4 text-center">
-                <nuxtLink to="https://github.com/wildy13/">More</nuxtLink>
+
+                <div class="grid col-span-2 py-4 text-center">
+                    <nuxtLink to="https://github.com/wildy13/">More</nuxtLink>
+                </div>
             </div>
         </div>
     </div>
