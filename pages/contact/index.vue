@@ -18,7 +18,7 @@ const submit = (form) => {
 <template>
     <div class="max-h-screen bg-[#DFF8FD] ">
         <div class="h-screen flex flex-col pt-16">
-            <form @submit.prevent="submit(form)" class="pt-2">
+            <form @submit.prevent="submit(form)">
                 <div class="flex flex-col px-7 space-y-2">
                     <div>
                         <div>
