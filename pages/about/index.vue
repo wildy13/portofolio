@@ -42,12 +42,12 @@ const experiences = reactive()
 
 
 <template>
-    <div ref="el" class="max-h-screen bg-[#DFF8FD] ">
-        <div class="h-screen flex flex-col pt-16">
-            <div class="flex justify-end space-y-20">
+    <div class="max-h-screen bg-[#DFF8FD]">
+        <div class="h-screen">
+            <Navbar />
+            <div class="flex justify-end space-y-20 py-16">
                 <div>
-                    <UTabs :items="items"
-                        class="w-full max-w-lg px-4">
+                    <UTabs :items="items" class="w-full max-w-lg px-4">
                         <template #item="{ item }">
                             <UCard @submit.prevent="() => onSubmit(item.key === 'education' ? education : experiences)">
                                 <div v-if="item.key === 'education'" class="space-y-3">
@@ -92,4 +92,3 @@ const experiences = reactive()
         </div>
     </div>
 </template>
-
