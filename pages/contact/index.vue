@@ -17,9 +17,9 @@ const submit = (form) => {
 
 <template>
     <div class="max-h-screen bg-[#DFF8FD] ">
-        <div class="h-screen flex flex-col pt-16">
+        <div class="h-screen flex flex-col pt-8">
             <form @submit.prevent="submit(form)">
-                <div class="flex flex-col px-7 space-y-2">
+                <div class="flex flex-col px-7">
                     <div>
                         <div>
                             <label for="name" class="block mb-2 font-semibold">Full Name</label>
