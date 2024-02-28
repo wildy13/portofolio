@@ -11,7 +11,7 @@ const form = ref({
 
 const submit = (form) => {
     waiting.value = true;
-    window.open(`mailto:wildy13.simanjuntak13@gmail.com?subject=${form.subject}&&body=${form.message}`)
+    window.open(`mailto:wildy.simanjuntak13@gmail.com?subject=${form.subject}&&body=${form.message}`)
 }
 </script>
 
