@@ -6,21 +6,21 @@
                 <div class="grid gap-2">
                     <div>
                         <img class="h-auto max-w-full rounded-lg"
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="">
+                            src="/images/image-1.jpeg" alt="">
                     </div>
                     <div>
                         <img class="h-auto max-w-full rounded-lg"
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
+                            src="/images/image-2.jpeg" alt="">
                     </div>
                 </div>
                 <div class="grid gap-2">
                     <div>
                         <img class="h-auto max-w-full rounded-lg"
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="">
+                            src="/images/image-3.jpeg" alt="">
                     </div>
                     <div>
                         <img class="h-auto max-w-full rounded-lg"
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="">
+                            src="/images/image-4.jpeg" alt="">
                     </div>
                 </div>
 
