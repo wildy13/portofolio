@@ -6,3 +6,14 @@
         <div v-motion :initial="{ x: -100, opacity: 0, }" :enter="{ x: 0, opacity: 1, transition: { duration: 300,  type: 'keyframes', ease: 'easeOut'}}"  class="text-black">Portofolio</div>
     </div>
 </template>
+
+<style scoped>
+a.router-link-active,
+a.router-link-exact-active {
+  @apply rounded-lg text-emerald-500;
+}
+a.router-link-active > div,
+a.router-link-exact-active > div {
+  @apply text-primary-900;
+}
+</style>
