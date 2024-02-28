@@ -5,8 +5,8 @@
 <template>
     <div class="max-h-screen bg-[#DFF8FD]">
         <div class="h-screen flex flex-col justify-center">
-            <div class="flex justify-between items-center space-y-20">
-                <div class="mb-80 md:m-0">
+            <div class="absolute md:static bottom-0 flex flex-col md:flex-row justify-between items-center space-y-20">
+                <div class="">
                     <div v-motion :initial="{ x: -200, opacity: 0, }"
                         :enter="{ x: 0, opacity: 1, transition: { duration: 1500, type: 'keyframes', ease: 'easeOut' } }"
                         class="pt-10 mx-4 text-4xl text-black">Web <span>Developer</span>
@@ -25,7 +25,7 @@
                 </div>
                 <img v-motion :initial="{ y: 500, opacity: 0, }"
                     :enter="{ y: 0, opacity: 1, transition: { duration: 3000, type: 'keyframes', ease: 'easeOut' } }"
-                    src="/avatar.png" alt="avatar" class="absolute bottom-0 right-0 z-50 w-auto h-80 md:auto">
+                    src="/avatar.png" alt="avatar" class="md:absolute bottom-0 right-0 z-50 w-auto h-80 md:h-auto">
             </div>
         </div>
     </div>
