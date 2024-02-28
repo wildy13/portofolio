@@ -19,10 +19,10 @@ const submit = (form) => {
     <div class="max-h-screen bg-[#DFF8FD] ">
         <div class="h-screen w-full flex flex-col items-center justify-center pb-16">
             <div>
-                <div class="text-center text-xl font-bold">Get in touch</div>
-                <div class="font-semibold text-base text-center">For inquiries regarding my portfolio, please feel free to reach out.</div>
+                <div class="text-center text-base font-bold">Get in touch</div>
+                <div class="font-semibold text-sm text-center">For inquiries regarding my portfolio, please feel free to reach out.</div>
             </div>
-            <form @submit.prevent="submit(form)" class="w-full max-w-xs md:max-w-4xl text-base">
+            <form @submit.prevent="submit(form)" class="w-full max-w-xs md:max-w-4xl text-sm">
                 <div class="flex flex-col px-7l">
                     <div>
                         <div>
