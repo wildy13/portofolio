@@ -21,12 +21,6 @@
                             <img class="h-auto max-w-full rounded-lg" src="/images/image-4.jpeg">
                         </div>
                     </div>
-
-                    <div class="grid col-span-2 py-4 text-center">
-                        <div>
-                            <nuxtLink to="https://github.com/wildy13/">More</nuxtLink>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

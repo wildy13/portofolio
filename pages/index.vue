@@ -19,6 +19,14 @@
                         :enter="{ y: 0, opacity: 1, transition: { duration: 2700, type: 'keyframes', ease: 'easeOut' } }">
                         <a href="/docs/wildy.pdf" class="mx-4 text-gray-400 text-xl" download>Download My CV</a>
                     </div>
+                    <div class="flex space-x-2 md:space-x-4 py-2 md:py-4 mx-4">
+                        <nuxtLink to="https://github.com/wildy13">
+                            <UIcon name="i-devicon-github-wordmark" class="w-10 h-10" />
+                        </nuxtLink>
+                        <nuxtLink to="https://www.linkedin.com/in/wildy-simanjuntak-181a691a4">
+                            <UIcon name="i-devicon-linkedin-wordmark" class="w-10 h-10" />
+                        </nuxtLink>
+                    </div>
                 </div>
                 <img v-motion :initial="{ y: 500, opacity: 0, }"
                     :enter="{ y: 0, opacity: 1, transition: { duration: 3000, type: 'keyframes', ease: 'easeOut' } }"

@@ -9,6 +9,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@iconify-json/devicon": "^1.1.35",
     "@nuxt/ui": "^2.14.1",
     "@vueuse/core": "^10.8.0",
     "@vueuse/motion": "^2.1.0",
