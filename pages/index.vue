@@ -21,7 +21,7 @@
                 </div>
                 <img v-motion :initial="{ y: 500, opacity: 0, }"
                     :enter="{ y: 0, opacity: 1, transition: { duration: 3000, type: 'keyframes', ease: 'easeOut' } }"
-                    src="/avatar.png" alt="avatar" class="md:absolute bottom-0 right-0 z-50 w-auto h-80 md:h-auto">
+                    src="/avatar.png" alt="avatar" class="md:absolute bottom-0 right-0 z-50 w-auto h-72 md:h-auto">
             </div>
         </div>
     </div>
