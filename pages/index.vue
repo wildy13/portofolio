@@ -5,7 +5,7 @@
 <template>
     <div class="max-h-screen bg-[#DFF8FD]">
         <div class="h-screen flex flex-col justify-center">
-            <div class="absolute pt-16 md:p-0 md:static bottom-0 flex flex-col md:flex-row justify-between items-center space-y-20">
+            <div class="absolute pt-16 md:p-0 md:static bottom-0 flex flex-col md:flex-row justify-between items-center space-y-20 w-full">
                 <div>
                     <div v-motion :initial="{ x: -200, opacity: 0, }"
                         :enter="{ x: 0, opacity: 1, transition: { duration: 1500, type: 'keyframes', ease: 'easeOut' } }"
