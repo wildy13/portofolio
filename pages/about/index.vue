@@ -49,16 +49,19 @@ const experiences = reactive()
                 <div class="py-16  w-full  flex  justify-end md:justify-evenly space-x-20">
                     <div class="hidden md:block max-w-md">
                         <div v-motion :initial="{ y: -100, opacity: 0, }"
-                        :enter="{ y: 0, opacity: 1, transition: { duration: 1200, type: 'keyframes', ease: 'easeOut' } }" class="px-4  py-1 border-b-2 border-[#363030] text-xl">WHAT I DO</div>
+                            :enter="{ y: 0, opacity: 1, transition: { duration: 1200, type: 'keyframes', ease: 'easeOut' } }"
+                            class="px-4  py-1 border-b-2 border-[#363030] text-xl">WHAT I DO</div>
                         <div v-motion :initial="{ x: -500, opacity: 0, }"
-                        :enter="{ x: 0, opacity: 1, transition: { duration: 1200, type: 'keyframes', ease: 'easeOut' } }" class="px-7 py-2 text-2xl text-justify">
+                            :enter="{ x: 0, opacity: 1, transition: { duration: 1200, type: 'keyframes', ease: 'easeOut' } }"
+                            class="px-7 py-2 text-2xl text-justify">
                             As a <span class="text-red-500">web developer</span>, I have a passion for seeking knowledge and
                             experience.
                             can compete with times that are
                             changing too quickly and can work together with a team so that problems can be resolved.
                         </div>
                         <div v-motion :initial="{ x: -500, opacity: 0, }"
-                        :enter="{ x: 0, opacity: 1, transition: { duration: 1200, type: 'keyframes', ease: 'easeOut' } }" class="px-7 py-2 text-2xl text-justify">
+                            :enter="{ x: 0, opacity: 1, transition: { duration: 1200, type: 'keyframes', ease: 'easeOut' } }"
+                            class="px-7 py-2 text-2xl text-justify">
                             As a <span class="text-red-500">son</span>, I had dreams to make my parents happy so that I
                             could
                             live
@@ -102,14 +105,14 @@ const experiences = reactive()
                             </template>
                         </UTabs>
                     </div>
-                    <div>
-                        <img v-motion :initial="{ x: -375, opacity: 0, }"
-                            :enter="{ x: 0, opacity: 1, transition: { duration: 1500, type: 'keyframes', ease: 'easeOut' } }"
-                            src="/avatar.png" alt="avatar"
-                            class="absolute bottom-0 -left-[50%] lg:-left-[35%] xl:-left-[20%] z-50 h-auto">
-                    </div>
                 </div>
             </div>
+
+            <div>
+                <img v-motion :initial="{ x: -375, opacity: 0, }"
+                    :enter="{ x: 0, opacity: 1, transition: { duration: 1500, type: 'keyframes', ease: 'easeOut' } }"
+                    src="/avatar.png" alt="avatar"
+                    class="absolute bottom-0 -left-[50%] lg:-left-[35%] xl:-left-[20%] z-50 h-auto">
+            </div>
         </div>
-    </div>
-</template>
+</div></template>
